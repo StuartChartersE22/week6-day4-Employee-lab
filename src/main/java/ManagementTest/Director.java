@@ -1,4 +1,4 @@
-package Management;
+package ManagementTest;
 
 public class Director {
 }
