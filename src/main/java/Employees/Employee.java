@@ -24,7 +24,7 @@ public abstract class Employee {
         return this.salary;
     }
 
-    public void riaiseSalary(double amount){
+    public void raiseSalary(double amount){
         this.salary += amount;
     }
 
