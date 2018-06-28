@@ -33,4 +33,10 @@ public abstract class Employee {
     public double payBonus(){
         return this.salary * 0.01;
     }
+
+    public void changeName(String name) {
+        if(!name.equals("")) {
+            this.name = name;
+        }
+    }
 }
