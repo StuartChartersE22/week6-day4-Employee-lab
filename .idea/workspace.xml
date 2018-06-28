@@ -71,9 +71,12 @@
           <file leaf-file-name="Director.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/ManagementTest/Director.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-                  <folding />
+                <state relative-caret-position="225">
+                  <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#294#295#0" expanded="true" />
+                    <element signature="e#328#329#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -111,8 +114,8 @@
           <file leaf-file-name="DirectorTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/ManagementTest/DirectorTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="211">
-                  <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                <state relative-caret-position="236">
+                  <caret line="49" column="57" lean-forward="false" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#217#218#0" expanded="true" />
@@ -127,6 +130,8 @@
                     <element signature="e#699#700#0" expanded="true" />
                     <element signature="e#890#891#0" expanded="true" />
                     <element signature="e#953#954#0" expanded="true" />
+                    <element signature="e#996#997#0" expanded="true" />
+                    <element signature="e#1062#1063#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -746,6 +751,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="DirectorTest.canGetBudget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ManagementTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="EmployeeLab_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ManagementTest" />
+      <option name="MAIN_CLASS_NAME" value="ManagementTest.DirectorTest" />
+      <option name="METHOD_NAME" value="canGetBudget" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="ManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -760,31 +790,6 @@
       <option name="MAIN_CLASS_NAME" value="ManagementTest.ManagerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ManagerTest.canRaiseSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ManagementTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="EmployeeLab_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ManagementTest" />
-      <option name="MAIN_CLASS_NAME" value="ManagementTest.ManagerTest" />
-      <option name="METHOD_NAME" value="canRaiseSalary" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -858,18 +863,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.ManagerTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ManagerTest.canRaiseSalary" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DeveloperTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DatabaseAdminTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DirectorTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DeveloperTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DatabaseAdminTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DirectorTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DirectorTest.canGetBudget" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.DirectorTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DatabaseAdminTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DeveloperTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ManagerTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ManagerTest.canRaiseSalary" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DirectorTest.canGetBudget" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DatabaseAdminTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DeveloperTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ManagerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -896,6 +901,9 @@
     <history-entry file="DeveloperTest - 2018.06.28 at 15h 14m 09s.xml">
       <configuration name="DeveloperTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DirectorTest - 2018.06.28 at 15h 31m 42s.xml">
+      <configuration name="DirectorTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ManagerTest - 2018.06.28 at 15h 01m 36s.xml">
       <configuration name="ManagerTest" configurationId="JUnit" />
     </history-entry>
@@ -904,9 +912,6 @@
     </history-entry>
     <history-entry file="ManagerTest_canGetNI - 2018.06.28 at 14h 56m 57s.xml">
       <configuration name="ManagerTest.canGetNI" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ManagerTest_canGetName - 2018.06.28 at 14h 54m 55s.xml">
-      <configuration name="ManagerTest.canGetName" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ManagerTest_canGetSalary - 2018.06.28 at 14h 58m 31s.xml">
       <configuration name="ManagerTest.canGetSalary" configurationId="JUnit" />
@@ -927,7 +932,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -935,7 +940,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14620355" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1063,14 +1068,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ManagementTest/Director.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ManagementTest/ManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -1093,10 +1090,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ManagementTest/Director.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ManagementTest/DirectorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="236">
+          <caret line="49" column="57" lean-forward="false" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#217#218#0" expanded="true" />
@@ -1111,6 +1119,8 @@
             <element signature="e#699#700#0" expanded="true" />
             <element signature="e#890#891#0" expanded="true" />
             <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
           </folding>
         </state>
       </provider>
