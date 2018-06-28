@@ -10,6 +10,7 @@ public class Manager extends Employee {
         this.deptname = deptname;
     }
 
-
-
+    public String getDeptname() {
+        return this.deptname;
+    }
 }
