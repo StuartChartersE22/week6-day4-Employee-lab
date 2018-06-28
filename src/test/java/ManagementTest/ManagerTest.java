@@ -15,7 +15,18 @@ public class ManagerTest {
     }
 
     @Test
-public void canGetName(){
+    public void canGetName(){
         assertEquals("John", manager.getName());
     }
+
+    @Test
+    public void canGetNI(){
+        assertEquals(1, manager.getNi());
+    }
+
+    @Test
+    public void canGetSalary(){
+        assertEquals(15.00, manager.getSalary(), 0.001);
+    }
+
 }
